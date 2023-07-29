@@ -3,6 +3,7 @@ let v = 'Can I kiss you?';
 let k = 'Once I do this...';
 let j = 'We have to have sex';
 let d = 'When will I hoop again?';
+let y = 'I have to get out of my mothers basement';
 
 
 
@@ -65,6 +66,15 @@ function words() {
   translate(width/2, height/2);
   translate(p5.Vector.fromAngle(millis() / 800, 80));
   word5 = text(d, width/10, height/10);
+  pop()
+
+  push()
+  let word6;
+  fill(255);
+  textAlign(CENTER);
+  translate(width/2, height/2);
+  translate(p5.Vector.fromAngle(millis() / 550, 80));
+  word5 = text(y, width/35, height/60);
   pop()
 
 
